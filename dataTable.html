@@ -1,0 +1,14 @@
+<template>
+    <lightning-card title="Data Table ">
+    
+            <template for:each={accInfo} for:item="acc">
+                <li key={acc.id}>  Name ={acc.Name} <br>
+                    Phone = {acc.Phone}
+                </li>
+                
+            </template>
+
+     
+
+    </lightning-card>
+</template>
